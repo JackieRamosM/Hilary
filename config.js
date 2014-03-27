@@ -72,7 +72,7 @@ config.redis = {
  */
 config.servers = {
     'globalAdminAlias': 'admin',
-    'globalAdminHost': 'admin.oae.com',
+    'globalAdminHost': 'jackiesakai.com',
     'globalAdminPort': 2000,
     'serverInternalAddress': null,
     'tenantPort': 2001,
@@ -81,7 +81,7 @@ config.servers = {
 };
 
 var tmpDir = process.env.TMP || process.env.TMPDIR || process.env.TEMP || '/tmp' || process.cwd();
-tmpDir += '/oae';
+/* tmpDir += '/oae'; */ 
 
 /**
  * `config.files`
@@ -383,7 +383,7 @@ config.saml = {
  * @param  {Number}     hosts[i].port   The port number on which Hilary will be accessing the etherpad API.
  */
 config.etherpad = {
-    'apikey': '13SirapH8t3kxUh5T5aqWXhXahMzoZRA',
+    'apikey': 'zfZSRNzF8bxjK4Bfs6t0ToJ7BA760jMS',
     'hosts': [
         {
             'host': '127.0.0.1',
