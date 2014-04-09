@@ -81,7 +81,7 @@ config.servers = {
 };
 
 var tmpDir = process.env.TMP || process.env.TMPDIR || process.env.TEMP || '/tmp' || process.cwd();
-/* tmpDir += '/oae'; */ 
+ tmpDir += '/oae';  
 
 /**
  * `config.files`
